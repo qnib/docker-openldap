@@ -22,3 +22,4 @@ RUN service slapd start ;\
     ldapadd -x -D cn=admin,dc=qnib,dc=org -w password -c -f front.ldif &&\
     ldapadd -x -D cn=admin,dc=qnib,dc=org -w password -c -f more.ldif
 ADD etc/supervisord.d/slapd.ini /etc/supervisord.d/
+ADD etc/consul.d/slapd.json /etc/consul.d/

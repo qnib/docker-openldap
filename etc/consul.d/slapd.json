@@ -1,0 +1,10 @@
+{
+  "service": {
+    "name": "slapd",
+    "port": 389,
+    "check": {
+      "script": "nmap 127.0.0.1 -PN -p ldap | grep open",
+      "interval": "10s"
+    }
+  }
+}
