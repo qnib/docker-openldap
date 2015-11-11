@@ -5,10 +5,10 @@ objectClass: olcDatabaseConfig
 objectClass: olcHdbConfig
 olcDatabase: {2}hdb
 olcDbDirectory: /var/lib/ldap
-olcSuffix: dc=qnib,dc=org
-olcAccess: {0}to attrs=userPassword,shadowLastChange by self write by anonymous auth by dn="cn=admin,dc=qnib,dc=org" write by * none
+olcSuffix: dc=openstack,dc=org
+olcAccess: {0}to attrs=userPassword,shadowLastChange by self write by anonymous auth by dn="cn=admin,dc=openstack,dc=org" write by * none
 olcAccess: {1}to dn.base="" by * read
-olcAccess: {2}to * by self write by dn="cn=admin,dc=qnib,dc=org" write by * read
+olcAccess: {2}to * by self write by dn="cn=admin,dc=openstack,dc=org" write by * read
 olcLastMod: TRUE
 olcRootDN: cn=admin,dc=openstack,dc=org
 olcRootPW: password
