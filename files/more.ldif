@@ -27,3 +27,23 @@ userpassword: edward
 mail: edward.alderson@qnib.org
 description: dad of hacker guy
 ou: Hacker Crew
+
+dn: cn=Hubot Alderson,ou=Admins,dc=qnib,dc=org
+objectclass: inetOrgPerson
+cn: Hubot Alderson
+sn: Hubot
+uid: hubot
+userpassword: hubot
+mail: hubot.alderson@qnib.org
+description: Bot for ChatOps
+ou: IT Crowd
+
+dn: cn=Christian Qnib,ou=Admins,dc=qnib,dc=org
+objectclass: inetOrgPerson
+cn: Christian Qnib
+sn: Christian
+uid: christian
+userpassword: christian
+mail: christian@qnib.org
+description: CxO
+ou: IT Crowd

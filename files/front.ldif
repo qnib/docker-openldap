@@ -12,6 +12,10 @@ dn: ou=Users,dc=qnib,dc=org
 objectClass: organizationalUnit
 ou: Users
 
+dn: ou=Admins,dc=qnib,dc=org
+objectClass: organizationalUnit
+ou: Admins
+
 dn: ou=Roles,dc=qnib,dc=org
 objectClass: organizationalUnit
 ou: Roles
