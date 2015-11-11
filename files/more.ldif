@@ -1,27 +1,29 @@
-dn: cn=Robert Smith,ou=Users,dc=qnib,dc=org
+dn: cn=Sam Esmail,ou=Users,dc=qnib,dc=org
 objectclass: inetOrgPerson
-cn: Robert Smith
-cn: Robert J Smith
-cn: bob  smith
-sn: smith
-uid: rjsmith
-userpassword: rJsmitH
-carlicense: HISCAR 123
-homephone: 555-111-2222
-mail: r.smith@example.com
-mail: rsmith@example.com
-mail: bob.smith@example.com
-description: swell guy
-ou: Human Resources
+cn: Sam Esmail
+sn: Esmail
+uid: sam
+userpassword: sam
+mail: sam.esmail@qnib.org
+description: Director
+ou: Film Crew
 
-dn: cn=Larry Cai,ou=Users,dc=qnib,dc=org
+dn: cn=Elliot Alderson,ou=Users,dc=qnib,dc=org
 objectclass: inetOrgPerson
-cn: Larry Cai
-sn: Cai
-uid: larrycai
-userpassword: LarryCai
-carlicense: HISCAR 123
-homephone: 555-111-2222
-mail: larry.caiyu@gmail.com
+cn: Elliot Alderson
+sn: Elliot
+uid: elliot
+userpassword: elliot
+mail: eliot.alderson@qnib.org
 description: hacker guy
-ou: Development Department
+ou: Hacker Crew
+
+dn: cn=Edward Alderson,ou=Users,dc=qnib,dc=org
+objectclass: inetOrgPerson
+cn: Edward Alderson
+sn: Edward
+uid: edward
+userpassword: edward
+mail: edward.alderson@qnib.org
+description: dad of hacker guy
+ou: Hacker Crew
