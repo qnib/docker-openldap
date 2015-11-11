@@ -1,4 +1,4 @@
-dn: cn=Robert Smith,ou=Users,dc=openstack,dc=org
+dn: cn=Robert Smith,ou=Users,dc=qnib,dc=org
 objectclass: inetOrgPerson
 cn: Robert Smith
 cn: Robert J Smith
@@ -14,7 +14,7 @@ mail: bob.smith@example.com
 description: swell guy
 ou: Human Resources
 
-dn: cn=Larry Cai,ou=Users,dc=openstack,dc=org
+dn: cn=Larry Cai,ou=Users,dc=qnib,dc=org
 objectclass: inetOrgPerson
 cn: Larry Cai
 sn: Cai
