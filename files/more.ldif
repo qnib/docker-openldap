@@ -47,3 +47,14 @@ userpassword: christian
 mail: christian@qnib.org
 description: CxO
 ou: IT Crowd
+
+dn: cn=Admin Qnib,ou=Admins,dc=qnib,dc=org
+objectclass: inetOrgPerson
+cn: Admin Qnib
+sn: Admin
+uid: admin
+userpassword: admin
+mail: admin@qnib.org
+description: Admin
+ou: IT Crowd
+
