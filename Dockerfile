@@ -3,7 +3,7 @@
 # inspired by https://github.com/larrycai/docker-openldap
 # it is based on https://github.com/rackerlabs/dockerstack/blob/master/keystone/openldap/Dockerfile 
 # also the files/more.ldif from http://www.zytrax.com/books/ldap/ch14/#ldapsearch
-FROM qnib/u-terminal:14.04
+FROM qnib/u-consul:14.04
 
 # install slapd in noninteractive mode
 RUN apt-get update && \
